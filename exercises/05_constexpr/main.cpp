@@ -16,8 +16,8 @@ int main(int argc, char **argv) {
     ASSERT(FIB20 == 6765, "fibonacci(20) should be 6765");
     std::cout << "fibonacci(20) = " << FIB20 << std::endl;
 
-    // TODO: 观察错误信息，修改一处，使代码编译运行
-    constexpr auto ANS_N = 100;
+    // TODO: 观察错误信息，修改一处，使代码编译运行，只是从100 -> 一个更小的数？？
+    constexpr auto ANS_N = 10;
     constexpr auto ANS = fibonacci(ANS_N);
     std::cout << "fibonacci(" << ANS_N << ") = " << ANS << std::endl;
 
