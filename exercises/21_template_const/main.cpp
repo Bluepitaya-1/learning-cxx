@@ -41,6 +41,7 @@ private:
             if(i+1<N)
                 index=index*shape[i+1]+indices[i+1];
         }
+        return index;
     }
 };
 
